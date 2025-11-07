@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /config/
+Disallow: /database/
+Disallow: /api/
+Disallow: /errors/
+Sitemap: https://pravdaidelo.ru/sitemap.xml

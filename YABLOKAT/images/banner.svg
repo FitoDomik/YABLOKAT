@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b4513;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d2691e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="appleGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c92a2a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Фон -->
+  <rect width="800" height="300" fill="url(#bgGradient)" opacity="0.2"/>
+  
+  <!-- Яблоко 1 -->
+  <g transform="translate(200, 150)">
+    <ellipse cx="0" cy="0" rx="50" ry="55" fill="url(#appleGradient)"/>
+    <ellipse cx="-15" cy="-10" rx="15" ry="20" fill="#ff8787" opacity="0.5"/>
+    <path d="M-5,-50 Q-10,-65 -15,-60 Q-10,-55 -5,-50" fill="#4a5d23"/>
+    <path d="M5,-50 Q15,-55 20,-45 Q10,-50 5,-50" fill="#6b8e23" opacity="0.7"/>
+  </g>
+  
+  <!-- Яблоко 2 -->
+  <g transform="translate(400, 150)">
+    <ellipse cx="0" cy="0" rx="55" ry="60" fill="url(#appleGradient)"/>
+    <ellipse cx="-18" cy="-12" rx="18" ry="22" fill="#ff8787" opacity="0.5"/>
+    <path d="M-5,-55 Q-10,-70 -18,-65 Q-12,-58 -5,-55" fill="#4a5d23"/>
+    <path d="M5,-55 Q18,-60 23,-48 Q12,-55 5,-55" fill="#6b8e23" opacity="0.7"/>
+  </g>
+  
+  <!-- Яблоко 3 -->
+  <g transform="translate(600, 150)">
+    <ellipse cx="0" cy="0" rx="48" ry="53" fill="url(#appleGradient)"/>
+    <ellipse cx="-14" cy="-9" rx="14" ry="18" fill="#ff8787" opacity="0.5"/>
+    <path d="M-5,-48 Q-9,-62 -14,-58 Q-9,-52 -5,-48" fill="#4a5d23"/>
+    <path d="M5,-48 Q14,-52 18,-42 Q9,-48 5,-48" fill="#6b8e23" opacity="0.7"/>
+  </g>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="100" cy="100" r="10" fill="#fff" opacity="0.3"/>
+  <circle cx="150" cy="230" r="8" fill="#fff" opacity="0.3"/>
+  <circle cx="700" cy="80" r="12" fill="#fff" opacity="0.3"/>
+  <circle cx="650" cy="250" r="9" fill="#fff" opacity="0.3"/>
+</svg>
+

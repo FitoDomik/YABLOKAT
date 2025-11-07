@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>500 - Внутренняя ошибка сервера | Яблокат</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #fc4a1a 0%, #f7b733 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: white;
+        }
+        .error-container {
+            text-align: center;
+            padding: 2rem;
+        }
+        .error-code {
+            font-size: 8rem;
+            font-weight: bold;
+            text-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+        }
+        .error-message {
+            font-size: 1.5rem;
+            margin: 1rem 0;
+        }
+        .error-description {
+            font-size: 1rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+        .home-button {
+            display: inline-block;
+            padding: 15px 40px;
+            background: white;
+            color: #fc4a1a;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: transform 0.3s;
+        }
+        .home-button:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <div class="error-code">500</div>
+        <div class="error-message">Внутренняя ошибка сервера</div>
+        <div class="error-description">Произошла ошибка на сервере. Мы уже работаем над её устранением.</div>
+        <a href="/" class="home-button">Вернуться на главную</a>
+    </div>
+</body>
+</html>
