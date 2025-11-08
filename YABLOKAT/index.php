@@ -25,7 +25,7 @@ $user = getCurrentUser();
         <div class="hero">
             <h1 class="main-title">ЯБЛОКАТ</h1>
             <div class="banner">
-                <img src="/images/banner.svg" alt="Яблокат" class="banner-image">
+                <img src="/yablokat.jpg" alt="Яблокат" class="banner-image">
             </div>
             <div class="main-buttons">
                 <button id="startGameBtn" class="btn btn-large btn-primary">Начать играть</button>
